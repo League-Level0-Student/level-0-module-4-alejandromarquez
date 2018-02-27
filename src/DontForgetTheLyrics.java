@@ -20,15 +20,15 @@ public class DontForgetTheLyrics {
 	
 	public static void main(String[] args) {
 		// 4. Make a pop-up to explain the game.
-
+JOptionPane.showMessageDialog(null, "we will play a par of a song then you will guess the rest");
 		// 5. Use the playSound method to play your song.
-
+playSound ("PLEASE DON'T DO COCAINE FULL SONG! COCAINE RUINS YOUR BRAIN HEY!")
 		// 6. Make a pop-up for the player to type their answer.
-
-		// 7. If they answered correctly, tell them that they were right.
-
-		// 8. Otherwise, tell them they are wrong, and give them the answer.
-
+String meow = JOptionPane.showInputDialog("what your answer");
+		// 7. If they answered correctly, tell them that they were right		// 8. Otherwise, tell them they are wrong, and give them the answer.
+if () {
+	
+}
 		// 9. Record another sound and repeat steps 5-8.
 
 		// 10. [optional] Add a points variable that will calculate their final score.
